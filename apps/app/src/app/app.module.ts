@@ -1,14 +1,13 @@
 import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
-import { NgxCurrencyModule } from 'ngx-currency';
-
+import { MyCurrencyModule } from 'my-currency';
 import { AppComponent } from './app.component';
 import { NxWelcomeComponent } from './nx-welcome.component';
 
 @NgModule({
   declarations: [AppComponent, NxWelcomeComponent],
-  imports: [BrowserModule, NgxCurrencyModule, ReactiveFormsModule],
+  imports: [BrowserModule, MyCurrencyModule, ReactiveFormsModule],
   providers: [],
   bootstrap: [AppComponent],
 })

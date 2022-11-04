@@ -15,7 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@currency/money": ["libs/money/src/index.ts"]
+      "my-currency": ["libs/my-currency/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
