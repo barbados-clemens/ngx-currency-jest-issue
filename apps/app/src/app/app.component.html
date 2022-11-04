@@ -1,0 +1,4 @@
+<form [formGroup]="f">
+  <input name="money" formControlName="money" currencyMask />
+</form>
+<pre>{{ f.value | json }}</pre>
